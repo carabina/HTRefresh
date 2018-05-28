@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HTRefresh"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "HTRefresh is for scorllview to refresh."
   s.description  = "HTRefresh is for scorllview to refresh, you can use this kit for update or add more data with animation"
   s.homepage     = "https://github.com/helloted/HTRefresh"
@@ -42,8 +42,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
