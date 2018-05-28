@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HTRefresh"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "HTRefresh is for scorllview to refresh."
   s.description  = "HTRefresh is for scorllview to refresh, you can use this kit for update or add more data with animation"
   s.homepage     = "https://github.com/helloted/HTRefresh"
@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "Classes/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "Classes/HTRefresh.h"
+  # s.public_header_files = "Classes/HTRefresh.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -108,7 +108,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"

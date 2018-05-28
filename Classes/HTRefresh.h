@@ -6,9 +6,7 @@
 //  Copyright © 2018年 HelloTed. All rights reserved.
 //
 
-#ifndef HTRefresh_h
-#define HTRefresh_h
 
-//#import "HTRefreshView.h"
+#import "HTRefreshView.h"
+#import "UIScrollView+HTLoadRefresh.h"
 
-#endif /* HTRefresh_h */
