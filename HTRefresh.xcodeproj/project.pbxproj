@@ -35,6 +35,7 @@
 		8877767720BC0B8A004F7E87 /* UIScrollView+HTLoadRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HTLoadRefresh.h"; sourceTree = "<group>"; };
 		8877767820BC0B8A004F7E87 /* UIScrollView+HTLoadRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HTLoadRefresh.m"; sourceTree = "<group>"; };
 		8877767920BC0B8A004F7E87 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8877767E20BC0D73004F7E87 /* HTRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTRefresh.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				8877766620BC0AEC004F7E87 /* LaunchScreen.storyboard */,
 				8877766920BC0AEC004F7E87 /* Info.plist */,
 				8877766A20BC0AEC004F7E87 /* main.m */,
+				8877767E20BC0D73004F7E87 /* HTRefresh.h */,
 			);
 			path = HTRefresh;
 			sourceTree = "<group>";
